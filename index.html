@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <title>Coffee Station</title>
+  </head>
+  <style media="screen">
+  .clearfix:after img {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; float: left;
+width: 100px;
+height: 100px; }
+
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;  }
+
+:root {
+--wesbos: #ffc600;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.innerWrapper {
+max-width: 800px;
+margin: 0 auto;
+}
+
+body  {
+background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('img/bg1.jpg') no-repeat fixed center;
+background-size: cover;
+
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+}
+
+h2 {
+  display: inline-block;
+  border-bottom: 4px solid var(--wesbos);
+  margin-top: 0;
+  font: 50px cookie, cursive;
+}
+
+h2, h4 {
+font-family: 'Abril Fatface', serif;
+}
+
+h2 {
+font-size: 3rem;
+text-align: center;
+padding-top: 100px;
+margin: 0 0 30px 0;
+}
+
+/* NAV SECTION */
+
+.companyName {
+padding: 18px 17px 18px 15%;
+margin: 0;
+float: left;
+color: #fff;
+width: 42%;
+background: rgba(0,0,0,0.7);
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 2.25rem;
+text-align: left;
+font-variant: small-caps;
+}
+
+nav {
+padding: 0;
+margin: 0;
+width: 42%;
+float: right;
+}
+
+
+header nav ul {
+float: right;
+display: inline-block;
+padding: 0;
+margin: 0;
+width: 100%;
+border-right: 20px solid rgba(0,0,0,0.7);
+}
+
+header nav ul li {
+float: left;
+margin: 0;
+display: inline;
+width: 25%;
+text-align: center;
+background: rgba(0,0,0,0.7);
+}
+
+header nav ul li:hover {
+background: none;
+font-style: bold;
+transform: scale(1.2);
+}
+
+header nav ul li a {
+text-decoration: none;
+padding: 25px 20px;
+color: #fff;
+margin: 0;
+display: inline-block;
+
+font-family: 'Dancing Script', cursive;
+font-size: 1.5rem;
+}
+
+header nav ul li a:focus {
+outline: none;
+}
+
+/* HEAD SECTION */
+
+header
+
+.hero {
+text-align: center;
+text-shadow: 1px 0 2px #595859;
+}
+
+.hero h1 {
+font-size: 5.5rem;
+margin:0;
+padding-top: 200px;
+font-family: 'Kanit', sans-serif;
+color: #fff;
+}
+
+.hero h3 {
+padding-bottom: 250px;
+font-family: 'Quicksand', sans-serif;
+font-style: italic;
+color: #fff;
+font-size: 1.7rem;
+font-weight: 700;
+margin: 0;
+}
+
+
+@media (max-width:900px) {
+.companyName {
+  width: 100%;
+  text-align: center;
+  padding: 4% 4%;
+}
+
+.mainNav {
+  width: 100%;
+}
+
+header nav ul {
+  border: none;
+}
+
+header nav ul li a {
+  padding: 25px 2%;
+}
+}
+h1 {
+ text-shadow: 2px 2px 10px #ffc600;
+}
+#logo {
+  height: 100px;
+  vertical-align: middle;
+}
+  </style>
+  <body>
+    <header>
+				<div class="navWrapper" id="home">
+
+					<div class=" clearfix">
+            <img src="img/logo.png" width="211" height="200" alt="logo" />
+						<h2 class="companyName">coffee station</h2>
+						<nav class="mainNav clearfix">
+							<ul>
+								<li style="background: none;"><a href="#home">Home</a></li>
+								<li><a href=menu.html target='_self' class="smoothScroll"> Menu</a></li>
+								<li><a href=game.html target='_self' class="smoothScroll">Game</a></li>
+								<li><a href=contact.html target='_self' class="smoothScroll">Contact</a></li>
+							</ul>
+						</nav>
+					</div><!-- end .innerWrapper -->
+				</div><!-- end of .navWrapper -->
+        <div class="align-center">
+				<section class="hero">
+					<div class="innerWrapper">
+						<h1>เล่นเกมเพื่อรับส่วนลด </br>จากทางร้าน</h1>
+
+						<h3></h3>
+					</div><!-- end .innerWrapper (.hero) -->
+          </div>
+				</section>
+			</header>
+  </body>
+
+</html>
